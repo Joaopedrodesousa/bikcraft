@@ -1,0 +1,32 @@
+@import url(./header.css);
+
+:root {
+  --bg-color: #000;
+  --color-primary: #fff;
+  --color-primary-five: #b2b2b2;
+  --color-primary-eight: #595959;
+  --color-primary-eleven: #111;
+  --color-secundary-one: #ffbb00;
+  --color-secundary-two: #e4a30b;
+  --color-secundary-three: #a66f00;
+  --color-secundary-four: #664400;
+  --color-secundary-five: #332200;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.imagem {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.titulo,
+.subtitulo,
+.lista {
+  font-family: Poppins, Arial, sans-serif;
+}
